@@ -1,0 +1,24 @@
+
+table{
+	border: 3px solid white; 
+	border-collapse: collapse;
+	width: 100%;
+}
+body{
+	background-image: url(1.jpg);
+}
+th, td{
+	color: white;
+	font-style: italic;
+	
+}
+thead{
+	border-bottom: solid 3px white;
+}
+tr:nth-child(even){
+	background: #1C1C1C;
+}
+tr:hover td{
+	background: #369681;
+	color: white;
+}
